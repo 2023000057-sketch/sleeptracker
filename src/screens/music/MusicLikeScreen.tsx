@@ -11,7 +11,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { useMusicContext } from "../../../contexts/MusicContext";
+const useMusicContext = require("../../../contexts/MusicContext");
 
 interface Playlist {
   title: string;

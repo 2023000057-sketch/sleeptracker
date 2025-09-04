@@ -10,7 +10,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import deepSpaceImage from "../../../assets/images/deep-space.jpg";
+const deepSpaceImage = require("../../../assets/images/deep-space.jpg");
 
 export default function MusicLikeDetailScreen({
   navigation,

@@ -12,11 +12,11 @@ import {
   View,
 } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import gravityImage from "../../../assets/images/gravity.png";
-import deepSpaceImage from "../../../assets/images/deep-space.jpg";
-import airplaneImage from "../../../assets/images/airplane.png";
-import rainImage from "../../../assets/images/rain.png";
-import libraryImage from "../../../assets/images/library.png";
+const gravityImage = require("../../../assets/images/gravity.png");
+const deepSpaceImage = require( "../../../assets/images/deep-space.jpg");
+const airplaneImage = require("../../../assets/images/airplane.png");
+const rainImage = require("../../../assets/images/rain.png");
+const libraryImage = require("../../../assets/images/library.png");
 // import { useMusicContext } from '../contexts/MusicContext'; // 필요시 추가
 
 const { width: screenWidth } = Dimensions.get("window");

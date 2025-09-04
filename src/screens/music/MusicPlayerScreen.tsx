@@ -14,7 +14,7 @@ import {
   View,
 } from "react-native";
 import { Ionicons, MaterialIcons } from "@expo/vector-icons";
-import { useMusicContext } from "../../../contexts/MusicContext";
+const useMusicContext = require("../../../contexts/MusicContext");
 
 const { width: screenWidth, height: screenHeight } = Dimensions.get("window");
 
